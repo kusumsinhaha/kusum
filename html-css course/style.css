@@ -1,0 +1,14 @@
+style{
+  h1{
+    text-align: center;
+    color: blue;
+    background-color: brown;
+    font: bolder;
+    font-size: xx-large;
+  }
+
+  p{
+    color: aqua;
+    background-color: black;
+  }
+}
