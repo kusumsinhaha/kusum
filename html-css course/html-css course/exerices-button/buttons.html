@@ -1,0 +1,67 @@
+<style>
+button{
+  background-color: rgb(27, 215, 99);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+</style> 
+<!--
+  css selector= which element we are targeting  on page
+ -->
+<!--
+   rgb= combination of red, blue ad green to create any color that we want.
+          r-red
+          g-green
+          b-blue 
+     min=0 and  max=255
+     if we put rgb=0,0,0 - White
+    or rgb=255,255,255 - black
+   -->
+<!--
+  border-radius= the higher the pixels, the more round the corners will be.
+  -->
+
+<button>SUBSCRIBE</button>
+<style>
+  .SUBSCRIBE-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  </style> 
+
+  <!-- 
+     .subscribe-button =specify the specific button to style
+    if we start with .(dot) it means it'll target class name instead of element name like button
+     -->
+
+<button class="SUBSCRIBE-button">
+  SUBSCRIBE
+</button>
+
+<button>join</button>
+<!-- join button is green bcoz on top we style the button, it'll same for all button throughout the program 
+   -->
+
+<button class="subscribe-button"> 
+  join
+</button>
+<!--
+muntiple element can have same class name 
+-->
+
+<button class="join-button">
+  join
+</button>
+<!--
+  or you can create different class ad then style that particalar button using .(dot)
+ ,its green bcoz we didnot made .(dot) in style so button is already style onTop of this code acquried.
+ -->
